@@ -13,9 +13,9 @@ Gem::Specification.new do |gem|
   gem.files        += Dir['lib/**/*.rb']
   gem.test_files    = Dir['spec/**/*.rb']
 
-  gem.add_dependency('addressable', '>= 2.8.4')
-  gem.add_dependency('concurrent-ruby', '>= 1.2.2')
-  gem.add_dependency('faraday', '>= 2.7.4')
-  gem.add_dependency('faraday-multipart', '>= 1.0.4')
-  gem.add_dependency('faye-websocket', '>= 0.11.2')
+  gem.add_dependency('addressable')
+  gem.add_dependency('concurrent-ruby')
+  gem.add_dependency('faraday')
+  gem.add_dependency('faraday-multipart')
+  gem.add_dependency('faye-websocket')
 end
